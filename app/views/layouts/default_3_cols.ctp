@@ -14,7 +14,7 @@
 	<meta name="viewport" content="width=device-width" />
     <?php echo $this->Html->css(array('style')); ?>
     <?php echo $this->Html->script(array('libs/modernizr-2.5.2.min')); ?>
-    <?php //echo $this->Html->script(array('live')); ?> <!-- Used for DEVELOPMENT ONLY -->
+    <?php echo $this->Html->script(array('live')); ?> <!-- Used for DEVELOPMENT ONLY -->
 
     <?php echo $scripts_for_layout; ?>
 </head>

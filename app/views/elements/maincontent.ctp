@@ -1,7 +1,7 @@
 <?php $this->set("title_for_layout","Home | deviant-stories.com"); ?>
 
-<h4><?php echo $html->para('introduction', 'Welcome to Deviant Stories your source for free and regularly updated erotic
-                            stories about domination, kinky sex and slave training with a hard touch.', null, false); ?></h4>
+<h2><?php echo $html->para('introduction', 'Welcome to Deviant Stories, your source for free and regularly updated erotic
+                            stories about domination, kinky sex and slave training with a hard touch.', null, false); ?></h2>
 
 <?php echo $this->element('flashmovie'); ?>
 

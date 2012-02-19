@@ -6,7 +6,7 @@
     <?php //echo $this->element('online'); ?>
 <!--</div>-->
 
-<h5 class="quiet" style="text-align: center;">News</h5>
+<h3 class="quiet" style="text-align: center;">News</h3>
 
 <?php foreach ($threeRecords as $update): ?>
     <?php echo $this->element('newsbox', array('update' => $update)); ?>
