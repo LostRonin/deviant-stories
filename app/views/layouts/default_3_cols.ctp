@@ -12,7 +12,7 @@
 	<title><?php echo $title_for_layout; ?></title>
 
 	<meta name="viewport" content="width=device-width" />
-    <?php echo $this->Html->css(array('style', '')); ?>
+    <?php echo $this->Html->css(array('style')); ?>
     <?php echo $this->Html->script(array('libs/modernizr-2.5.2.min')); ?>
     <?php //echo $this->Html->script(array('live')); ?> <!-- Used for DEVELOPMENT ONLY -->
 
@@ -68,7 +68,7 @@
 
     <!-- Start #Box 01 - Gallery left -->
     <div class="span-8">
-        <p class="main_boxes"><?php echo $html->link($html->image("box_gallery.gif",
+        <p class="main_boxes"><?php echo $html->link($html->image("box_gallery.png",
                                                     array('alt' => 'box gallery image', 'width' => '200', 'height' => '200')),
                                                     array('controller' => 'images', 'action' => 'gallery'),
                                                     array('escape' => false)); ?></p>
@@ -77,7 +77,7 @@
 
     <!-- Start #Box 02 - Soon to come -->
     <div class="span-8">
-        <p class="main_boxes"><?php echo $html->link($html->image("box_soon.gif",
+        <p class="main_boxes"><?php echo $html->link($html->image("box_soon.png",
                                                     array('alt' => 'coming soon image', 'width' => '200', 'height' => '200')),
                                                     array('controller' => 'updates', 'action' => 'dashboard'),
                                                     // when ready: array('controller' => 'pages', 'action' => 'soon'),
@@ -87,7 +87,7 @@
 
     <!-- Start #Box 03 - Stories right -->
     <div class="span-8 last">
-        <p class="main_boxes"><?php echo $html->link($html->image("box_stories.gif",
+        <p class="main_boxes"><?php echo $html->link($html->image("box_stories.png",
                                                     array('alt' => 'box stories image', 'width' => '200', 'height' => '200')),
                                                     array('controller' => 'stories', 'action' => 'storyoverview'),
                                                     array('escape' => false)); ?></p>
@@ -106,7 +106,7 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
 
-<?php echo $this->Html->script(array('hashgrid')); ?>
+<?php echo $this->Html->script(array('hashgrid')); ?> <!-- FOR TESTING ONLY -->
 
 <?php echo $this->element('site-scripts'); ?>
 <?php echo $this->element('google-analytics'); ?>
