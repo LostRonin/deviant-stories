@@ -7,15 +7,12 @@
 <head>
     <meta name="google-site-verification" content="aF4KdoL0mEaJgqbFcDMV9T635YL-9cyD03rKA5eWSBs" />
 	<?php echo $this->Html->charset('utf-8'); ?>
-    <?php // echo $this->element('meta'); ?>
+    <?php echo $this->element('meta'); ?>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<title><?php echo $title_for_layout; ?></title>
 
-    <?php echo $html->meta('keywords', $seo['keywords']); ?>
-    <?php echo $html->meta('description', $seo['description']); ?>
-
 	<meta name="viewport" content="width=device-width" />
-    <?php echo $this->Html->css(array('style')); ?>
+    <?php echo $this->Html->css(array('style', '')); ?>
     <?php echo $this->Html->script(array('libs/modernizr-2.5.2.min')); ?>
     <?php //echo $this->Html->script(array('live')); ?> <!-- Used for DEVELOPMENT ONLY -->
 
@@ -108,6 +105,8 @@
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+<?php echo $this->Html->script(array('hashgrid')); ?>
 
 <?php echo $this->element('site-scripts'); ?>
 <?php echo $this->element('google-analytics'); ?>
