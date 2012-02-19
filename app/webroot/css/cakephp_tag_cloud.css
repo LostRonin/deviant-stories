@@ -1,0 +1,55 @@
+#tagcloud{ background:#f2f2f2; width:180px; height: auto; text-align:center; }
+
+.fs1{font-size:0.75em; color:#505050; padding: 3px 3px 3px 3px;}
+.fs2{font-size:0.7857em; color:#505050; padding: 3px 3px 3px 3px;}
+.fs3{font-size:0.8214em; color:#505050; padding: 3px 3px 3px 3px;}
+.fs4{font-size:0.8571em; color:#505050; padding: 3px 3px 3px 3px;}
+.fs5{font-size:0.8929em; color:#505050; padding: 3px 3px 3px 3px;}
+.fs6{font-size:0.9286em; color:#505050; padding: 3px 3px 3px 3px;}
+.fs7{font-size:0.9643em; color:#505050; padding: 3px 3px 3px 3px;}
+.fs8{font-size:1em; color:#505050; padding: 3px 3px 3px 3px;}
+.fs9{font-size:1.0357em; color:#505050; padding: 3px 3px 3px 3px;}
+.fs10{font-size:1.0714em; color:#505050; padding: 3px 3px 3px 3px;}
+.fs11{font-size:1.1071em; color:#505050; padding: 3px 3px 3px 3px;}
+.fs12{font-size:1.1429em; color:#505050; padding: 3px 3px 3px 3px;}
+.fs13{font-size:1.1786em; color:#505050; padding: 3px 3px 3px 3px;}
+.fs14{font-size:1.2143em; color:#505050; padding: 3px 3px 3px 3px;}
+.fs15{font-size:1.25em; color:#505050; padding: 3px 3px 3px 3px;}
+.fs16{font-size:1.2857em; color:#505050; padding: 3px 3px 3px 3px;}
+.fs17{font-size:1.3214em; color:#808080; padding: 3px 3px 3px 3px;}
+.fs18{font-size:1.3571em; color:#808080; padding: 3px 3px 3px 3px;}
+.fs19{font-size:1.3929em; color:#808080; padding: 3px 3px 3px 3px;}
+.fs20{font-size:1.4286em; color:#808080; padding: 3px 3px 3px 3px;}
+.fs21{font-size:1.4643em; color:#808080; padding: 3px 3px 3px 3px;}
+.fs22{font-size:1.5em; color:#808080; padding: 3px 3px 3px 3px;}
+.fs23{font-size:1.5357em; color:#808080; padding: 3px 3px 3px 3px;}
+.fs24{font-size:1.5714em; color:#808080; padding: 3px 3px 3px 3px;}
+.fs25{font-size:1.6071em; color:#808080; padding: 3px 3px 3px 3px;}
+.fs26{font-size:1.6429em; color:#808080; padding: 3px 3px 3px 3px;}
+.fs27{font-size:1.6786em; color:#808080; padding: 3px 3px 3px 3px;}
+.fs28{font-size:1.7143em; color:#808080; padding: 3px 3px 3px 3px;}
+.fs29{font-size:1.75em; color:#808080; padding: 3px 3px 3px 3px;}
+.fs30{font-size:1.7857em; color:#808080; padding: 3px 3px 3px 3px;}
+.fs31{font-size:1.8214em; color:#808080; padding: 3px 3px 3px 3px;}
+.fs32{font-size:1.8571em; color:#808080; padding: 3px 3px 3px 3px;}
+.fs33{font-size:1.8929em; color:#808080; padding: 3px 3px 3px 3px;}
+.fs34{font-size:1.9286em; color:#808080; padding: 3px 3px 3px 3px;}
+.fs35{font-size:1.9643em; color:#808080; padding: 3px 3px 3px 3px;}
+.fs36{font-size:2em; color:#808080; padding: 3px 3px 3px 3px;}
+.fs37{font-size:2.0357em; color:#E0E0E0; padding: 3px 3px 3px 3px;}
+.fs38{font-size:2.0714em; color:#E0E0E0; padding: 3px 3px 3px 3px;}
+.fs39{font-size:2.1071em; color:#E0E0E0; padding: 3px 3px 3px 3px;}
+.fs40{font-size:2.1429em; color:#E0E0E0; padding: 3px 3px 3px 3px;}
+.fs41{font-size:2.1786em; color:#E0E0E0; padding: 3px 3px 3px 3px;}
+.fs42{font-size:2.2143em; color:#E0E0E0; padding: 3px 3px 3px 3px;}
+.fs43{font-size:2.25em; color:#E0E0E0; padding: 3px 3px 3px 3px;}
+.fs44{font-size:2.2857em; color:#E0E0E0; padding: 3px 3px 3px 3px;}
+.fs45{font-size:2.3214em; color:#E0E0E0; padding: 3px 3px 3px 3px;}
+.fs46{font-size:2.3571em; color:#E0E0E0; padding: 3px 3px 3px 3px;}
+.fs47{font-size:2.3929em; color:#E0E0E0; padding: 3px 3px 3px 3px;}
+.fs48{font-size:2.4286em; color:#E0E0E0; padding: 3px 3px 3px 3px;}
+.fs49{font-size:2.4643em; color:#E0E0E0; padding: 3px 3px 3px 3px;}
+.fs50{font-size:2.5em; color:#E0E0E0; padding: 3px 3px 3px 3px;}
+
+#tagcloud a{ text-decoration:none; }
+#tagcloud a:hover{ text-decoration:none; color:#760000; }

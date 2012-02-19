@@ -1,0 +1,1 @@
+<p class="chapterinfo" style="text-align: center;">If you can't see the "End of Chapter" - message, switch to another Chapter-Tab and then back</p>

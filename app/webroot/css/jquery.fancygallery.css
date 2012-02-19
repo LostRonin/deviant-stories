@@ -1,0 +1,121 @@
+/*
+  Resets
+*/
+
+.fancygallery-panel a, .fancygallery-panel img, .fancygallery-panel ul, .fancygallery-panel li  { 
+    text-decoration: none;
+	list-style-type: none;
+	background: none;
+	outline: none; 
+	border: 0px;
+	margin: 0px;
+	padding: 0px !important;
+	vertical-align: baseline;
+	font-size: 100%;
+	max-width: 100%;
+}
+
+/*
+  Main styles
+*/
+
+.fg-line {
+	border: 0px;
+ 	border-top: solid 1px #EAEAEA; /* the top color of the line */
+	border-bottom: solid 1px #fff;  /* the bottom color of the line */
+	display: block;
+	clear: both !important;
+	margin: 10px 0px !important;
+}
+
+.fg-prev	{
+	background: url('../img/fancygallery/arrows_sprite.png') no-repeat 0px 0px !important; /* the path of the previous button image */
+	width: 20px; /* the width of the previous button image */
+	height: 27px; /* the width of the previous button image */
+	margin-top: 4px !important;
+	z-index: 1003;
+	float: left;
+}
+
+.fg-next	{
+	background: url('../img/fancygallery/arrows_sprite.png') no-repeat -20px 0px !important; /* the path of the next button image */
+	width: 20px; /* the width of the next button image */
+	height: 27px; /* the width of the next button image */
+	margin: 4px 0px 0px 10px !important;
+	z-index: 1004;
+	float: left;
+}
+
+.fg-prev-over	{
+	background: url('../img/fancygallery/arrows_sprite.png') no-repeat 0px -27px !important;
+}
+
+.fg-next-over	{
+	background: url('../img/fancygallery/arrows_sprite.png') no-repeat -20px -27px !important;
+}
+
+.fg-thumbHolder	{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	clear: both !important;
+}
+
+.fg-listItem {
+	position: relative;
+	float: left;
+	list-style: none !important;
+}
+
+.fg-image {
+	position: absolute;
+	z-index: 2;
+	-webkit-box-shadow: 0px 0px 1px 0px #afafaf;
+	-moz-box-shadow: 0px 0px 1px 0px #afafaf;
+	box-shadow: 0px 0px 1px 0px #afafaf;  
+}
+
+.fg-thumb	{
+	margin: auto !important;
+	display: block;
+}
+
+.fg-title	{
+	font-size: 12px; /* the size of the title */
+	position: absolute;
+	z-index: 100;
+	-webkit-box-shadow: 0px 1px 1px 0px #afafaf;
+	-moz-box-shadow: 0px 1px 1px 0px #afafaf;
+	box-shadow: 0px 1px 1px 0px #afafaf;
+}
+
+.fg-shadow	{
+	position: absolute;
+	z-index: 0;
+}
+
+.fg-error {
+	padding: 5px !important;
+	background: #ffd2d3;
+	border: 1px solid #df8f90;
+	color: #000;	
+}
+
+/* 
+  Helper 
+*/
+.clearfix:after {  
+    content: ".";  
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+ 
+* + html .clearfix { 
+    display: inline-block;
+}
+ 
+* html .clearfix { 
+	height: 1%;
+}

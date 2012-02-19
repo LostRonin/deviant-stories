@@ -1,0 +1,15 @@
+/app/tmp
+/app/plugins
+/app/vendors
+/cake
+/app/locale
+/app/webroot/build
+/app/webroot/img
+/app/webroot/intermediate
+/app/webroot/publish
+/app/webroot/js
+/app/webroot/webroot-orig
+/app/webroot/css/blueprint
+/app/webroot/css/images
+/app/webroot/css/.sass-cache
+/app/webroot/css/webroot
