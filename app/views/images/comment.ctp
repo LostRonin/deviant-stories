@@ -69,7 +69,7 @@ endforeach; ?>
 </div>
 -->
 
-
+    <br class="clear" />
 
 
 <?php
@@ -99,7 +99,7 @@ if(!empty($coms))
 
         <div class="emGravatar" class="left">
                 <?php
-                    echo $gravatar->image($com['Comment']['email'], array('size' => 58, 'rating' => 'x'), array('alt' => 'Sidebar Avatar', 'width' => 58, 'height' => 58));
+                    echo $gravatar->image($com['Comment']['email'], array('size' => 67, 'rating' => 'x'), array('alt' => 'Sidebar Avatar', 'width' => 67, 'height' => 67));
                 ?>
         </div>
     </div>
@@ -108,7 +108,7 @@ if(!empty($coms))
 } ?>
 
 <div class="span-8 last" style="margin-top: 30px;">
-    <div class="push-3">
+    <div class="push-2">
         <?php echo $this->Form->create('Comment',array('url'=>array('controller'=>'images', 'action'=>'comment', $comments['Image']['id'])));?>
         	<fieldset>
         		<span class="emTitle"><?php echo $this->Session->read('Auth.User.username') . ', add your comment:';?></span>

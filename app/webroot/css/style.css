@@ -453,7 +453,7 @@ a:hover, a:active {
    1. body */
 body {
   background-color: #595959;
-  font-family: Verdana, Arial, Helvetica, sans-serif; }
+  font-family: 'Droid Sans', Verdana, Arial, Helvetica, sans-serif; }
 
 #container p {
   line-height: 1.5em;
@@ -1068,7 +1068,7 @@ hr.space {
 /* =============================================
    Import Grid for DEVELOPMENT ONLY */
 /**
- * Grid
+ * Horizontal Grid display for Vertical Rhythm Testing
  */
 #grid {
   /* Dimensions - same width as your grid with gutters */
@@ -1240,6 +1240,8 @@ hr.space {
 .footer {
   background-color: #f2f2f2;
   border-top: 1px solid #760000;
+  font-size: .8em;
+  line-height: 1.666em;
   height: 55px; }
 
 .footer_address {
@@ -1322,7 +1324,7 @@ hr.space {
   font-weight: bold;
   font-size: 1.2em;
   padding: 10px 20px;
-  width: 150px;
+  width: 200px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   -o-border-radius: 5px;
@@ -1410,6 +1412,9 @@ hr.space {
 .tag_results {
   width: 650px;
   padding: 10px;
+  font-size: .9em;
+  line-height: 1.61em;
+  margin: 1.61em 0;
   background-color: #f2f2f2; }
 
 .logoutform {
@@ -1479,35 +1484,75 @@ input.text {
   -webkit-box-shadow: 0px 1px 0px #777;
   box-shadow: 0px 1px 0px #777; }
 
+#login {
+  color: black;
+  background: white;
+  border: solid 1px grey;
+  margin: 10px;
+  position: absolute;
+  width: 550px;
+  z-index: 0; }
+
+#login fieldset {
+  padding: 20px;
+  height: 160px;
+  margin: 40px 20px 30px 20px; }
+
+#login h2 {
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7), 0px 2px 0 rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  text-align: center;
+  color: #666;
+  margin: 30px 0 30px 0;
+  letter-spacing: 4px;
+  font: normal 26px/1 Verdana, Helvetica;
+  position: relative; }
+
+#login h6 {
+  text-shadow: 0 0.2px 0 rgba(255, 255, 255, 0.7), 0px 0.2px 0 rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  text-align: center;
+  color: #666;
+  margin: 15px 0 15px 0;
+  letter-spacing: 4px;
+  font: normal 13px/1 Verdana, Helvetica;
+  position: relative; }
+
+#login h2:after, #login h2:before {
+  background-color: #777;
+  content: "";
+  height: 1px;
+  position: absolute;
+  top: 15px;
+  width: 120px; }
+
+#login h2:after {
+  background-image: -webkit-gradient(linear, left top, right top, from(#777777), to(white));
+  background-image: -webkit-linear-gradient(left, #777777, white);
+  background-image: -moz-linear-gradient(left, #777777, white);
+  background-image: -ms-linear-gradient(left, #777777, white);
+  background-image: -o-linear-gradient(left, #777777, white);
+  background-image: linear-gradient(left, #777777, white);
+  right: 0; }
+
+#login h2:before {
+  background-image: -webkit-gradient(linear, right top, left top, from(#777777), to(white));
+  background-image: -webkit-linear-gradient(right, #777777, white);
+  background-image: -moz-linear-gradient(right, #777777, white);
+  background-image: -ms-linear-gradient(right, #777777, white);
+  background-image: -o-linear-gradient(right, #777777, white);
+  background-image: linear-gradient(right, #777777, white);
+  left: 0; }
+
 #registration {
   color: black;
   background: white;
   border: solid 1px grey;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(0, 0, 0, 0.2), 0 3px 0 white, 0 4px 0 rgba(0, 0, 0, 0.2), 0 6px 0 white, 0 7px 0 rgba(0, 0, 0, 0.2);
+  height: 1000px;
   margin: 10px;
   position: absolute;
   width: 550px;
-  z-index: 0;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px; }
-
-#registration:before {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  border: 1px dashed #ccc;
-  top: 5px;
-  bottom: 5px;
-  left: 5px;
-  right: 5px;
-  -moz-box-shadow: 0 0 0 1px #fff;
-  -webkit-box-shadow: 0 0 0 1px #fff;
-  box-shadow: 0 0 0 1px #fff; }
-
-#registration a {
-  color: #8c910b;
-  text-shadow: 0px -1px 0px black; }
+  z-index: 0; }
 
 #registration fieldset {
   padding: 20px;
@@ -1617,7 +1662,8 @@ input.text {
   border-style: solid;
   border-width: 1px;
   display: block;
-  font-size: 18px;
+  font-size: 1.2em;
+  line-height: 1.25em;
   font-size-adjust: none;
   font-stretch: normal;
   font-style: normal;
@@ -1625,7 +1671,7 @@ input.text {
   font-weight: normal;
   line-height: 16px;
   margin: 1px;
-  padding: 9px 5px; }
+  padding: 11px 5px; }
 
 .menu h2 {
   background: #760000 none repeat scroll 0;
@@ -1634,11 +1680,13 @@ input.text {
 
 .menu a, .menu .current, .menu .parent {
   background: white none repeat scroll 0;
-  color: gray;
+  color: black;
+  letter-spacing: .2em;
   text-decoration: none; }
 
 .menu a:hover, .menu .current, .menu .parent:hover {
   background: #FFFFFF none repeat scroll 0;
+  font-weight: 700;
   color: #760000;
   border-color: #760000; }
 
@@ -1931,8 +1979,9 @@ address {
   text-align: center; }
 
 .crumbs_font {
-  letter-spacing: 0.1em;
-  line-height: 1.2em; }
+  letter-spacing: .1em;
+  line-height: 1.2em;
+  font-size: .8em; }
   .crumbs_font a {
     color: #760000;
     text-decoration: none; }
@@ -1944,10 +1993,9 @@ address {
     text-decoration: none; }
 
 .caption {
-  color: grey;
   font-size: 1.3em;
   line-height: 1.15em;
-  font-weight: bold; }
+  font-weight: 700; }
 
 .caption_inverse {
   color: #760000;
@@ -1956,23 +2004,27 @@ address {
 
 .caption2 {
   color: #760000;
-  font-size: 150%;
-  font-weight: bold; }
+  font-size: 1.5em;
+  line-height: 1em;
+  font-weight: 700; }
 
 .caption3 {
   color: #760000;
-  font-size: 90%;
-  font-weight: bold; }
+  font-size: .9em;
+  line-height: 1.666em;
+  font-weight: 700; }
 
 .caption4 {
   /* used in Sexy Photos Gallery */
   color: grey;
-  font-size: 90%;
+  font-size: .9em;
+  line-height: 1.666em;
   font-weight: normal;
   width: 550px; }
 
 .introduction {
   color: #760000;
+  font-weight: 700;
   letter-spacing: .1em;
   margin: 1em 0em 1em 0em;
   padding: 0 55px 5px 55px;
@@ -1994,6 +2046,13 @@ address {
   padding: 0 20px;
   text-align: justify; }
 
+.paginationFont {
+  color: #760000;
+  font-height: 1.875em;
+  margin: 3.75em 0;
+  font-size: 0.8em;
+  text-align: center; }
+
 .paypaltext {
   color: #760000;
   font-weight: bold;
@@ -2009,10 +2068,10 @@ address {
   /* used to format the blockquote in the stories */
   width: 200px;
   font-size: 2em;
-  line-height: 1.4em;
+  line-height: 1.2em;
   font-family: Times, Georgia, serif;
   margin: 0px;
-  padding: 20px;
+  padding: 0 30px 20px 0;
   border-left: none;
   quotes: "\201C" "\201D"; }
 
@@ -2032,7 +2091,7 @@ blockquote:after {
   font-size: 3em;
   font-style: italic;
   letter-spacing: 0.3em;
-  line-height: 1.4em;
+  line-height: 1.3em;
   margin: 0px;
   padding: 20px;
   text-align: center; }
@@ -2042,10 +2101,10 @@ blockquote:after {
   float: right;
   width: 200px;
   font-size: 2em;
-  line-height: 1.4em;
+  line-height: 1.2em;
   font-family: Times, Georgia, serif;
   margin: 0px;
-  padding: 20px 10px 20px 30px;
+  padding: 0px 10px 20px 30px;
   border-left: none;
   quotes: "\201C" "\201D"; }
 
@@ -2060,19 +2119,29 @@ blockquote:after {
   font-weight: bold; }
 
 .story_format {
-  font-size: 1em;
-  line-height: 1.5em;
-  font-weight: normal; }
+  font-size: 1.1em;
+  font-family: 'Droid Serif', Georgia, serif;
+  font-weight: 400; }
+  .story_format p {
+    line-height: 1.36em;
+    margin: 1.36em 0; }
 
 .textbox {
   float: right;
-  margin-right: 15px;
+  margin: 1.66em 15px 1.66em 0;
   width: 270px;
-  font-size: 110%;
-  line-height: 130%;
+  font-size: .9em;
+  line-height: 1.66em;
   font-weight: normal;
   letter-spacing: 1.2px;
   text-align: justify; }
+
+.textbox1 {
+  margin: 1.66em 0 0 0;
+  font-size: .9em;
+  line-height: 1.66em;
+  font-weight: normal;
+  letter-spacing: 1.2px; }
 
 .textbox2 {
   font-size: 110%;
@@ -2083,8 +2152,8 @@ blockquote:after {
 .textbox3 {
   /* used for rambling text in comments section */
   padding: 20px 50px 20px 20px;
-  font-size: 110%;
-  line-height: 130%;
+  font-size: 1em;
+  line-height: 1.5em;
   font-weight: normal;
   letter-spacing: 1.2px;
   text-align: justify; }
@@ -2123,14 +2192,14 @@ blockquote:after {
   width: 650px; }
 
 .emGravatar {
-  margin: 6px 0px 2px 39px;
+  margin: 6px 0px 2px 30px;
   padding-top: 0px;
   clear: left;
   float: left;
   display: block; }
 
 .emGravatarRamblings {
-  margin: 6px 0px 2px 72px;
+  margin: 6px 0px 2px 64px;
   padding-top: 0px;
   clear: left;
   float: left;
@@ -2139,6 +2208,8 @@ blockquote:after {
 .emComment {
   margin: 5px 90px 2px 0px;
   width: 440px;
+  font-size: .8em;
+  line-height: 1.5em;
   text-align: justify;
   background-color: #ECEFF5;
   border-bottom: 1px solid #E5EAF1;
@@ -2153,6 +2224,8 @@ blockquote:after {
 .emCommentRamblings {
   margin: 5px 55px 2px 0px;
   width: 440px;
+  font-size: .8em;
+  line-height: 1.5em;
   text-align: justify;
   background-color: #ECEFF5;
   border-bottom: 1px solid #E5EAF1;

@@ -18,4 +18,8 @@
 		$('#fancyGallery').fancygallery({thumbWidth: 170, thumbHeight: 170, titleHeight: 0, boxOptions: {deeplinking: false, overlay_gallery: false}});
     });
 
+    $(function() {
+        ligature();
+    });
+
 </script>

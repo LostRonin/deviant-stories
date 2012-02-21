@@ -8,6 +8,6 @@
 ?>
 
 <?php echo $this->element('pagination') ?>
-    
+
 </div>
 

@@ -44,7 +44,7 @@ div.button span {
 
 /* INPUT AND TEXTAREA */
 
-input.text,
+/*input.text,
 input.email,
 input.password,
 textarea.uniform {
@@ -63,9 +63,9 @@ textarea.uniform {
   -moz-border-radius: 3px;
   border-radius: 3px;
   outline: 0;
-}
+}*/
 
-input.text:focus,
+/*input.text:focus,
 input.email:focus,
 input.password:focus,
 textarea.uniform:focus {
@@ -74,7 +74,7 @@ textarea.uniform:focus {
   box-shadow: 0px 0px 4px rgba(0,0,0,0.3);
   border-color: #999;
   background: url('../img/uniform/bg-input-focus.png') repeat-x 0px 0px;
-}
+}*/
 
 /* SPRITES */
 
@@ -378,7 +378,7 @@ div.button {
   height: 30px;
 }
 
-div.button span {
+/*div.button span {
   margin-left: 13px;
   height: 22px;
   padding-top: 8px;
@@ -389,7 +389,7 @@ div.button span {
   text-transform: uppercase;
   padding-left: 2px;
   padding-right: 15px;
-}
+}*/
 
 /* Select */
 div.selector {
@@ -399,7 +399,7 @@ div.selector {
 
 div.selector select {
   min-width: 190px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   font-size: 12px;
   border: solid 1px #fff;
 }

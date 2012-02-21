@@ -41,7 +41,7 @@ if(!empty($coms))
 
         <div class="emGravatarRamblings" class="left">
                 <?php
-                    echo $gravatar->image($com['Comment']['email'], array('size' => 58, 'rating' => 'x'), array('alt' => 'Sidebar Avatar', 'width' => 58, 'height' => 58));
+                    echo $gravatar->image($com['Comment']['email'], array('size' => 67, 'rating' => 'x'), array('alt' => 'Sidebar Avatar', 'width' => 67, 'height' => 67));
                 ?>
         </div>
     </div>

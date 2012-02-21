@@ -27,7 +27,7 @@ class Update extends AppModel {
         return $this->find('all', array('conditions' => array(
                                             'Update.status_id' => 2),       // look for 'published' news
                                             'order' => 'Update.id DESC',    // newest first
-                                            'limit' => 4));                 // controls number of news-boxes on frontpage
+                                            'limit' => 6));                 // controls number of news-boxes on frontpage
     }
 }
 ?>

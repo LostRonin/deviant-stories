@@ -14,7 +14,9 @@
 	<meta name="viewport" content="width=device-width" />
     <?php echo $this->Html->css(array('style')); ?>
     <?php echo $this->Html->script(array('libs/modernizr-2.5.2.min')); ?>
-    <?php echo $this->Html->script(array('live')); ?> <!-- Used for DEVELOPMENT ONLY -->
+    <?php // echo $this->Html->script(array('live')); ?> <!-- Used for DEVELOPMENT ONLY -->
+
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif' rel='stylesheet' type='text/css' />
 
     <?php echo $scripts_for_layout; ?>
 </head>
@@ -106,7 +108,7 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
 
-<?php echo $this->Html->script(array('hashgrid')); ?> <!-- FOR TESTING ONLY -->
+<?php //echo $this->Html->script(array('hashgrid')); ?> <!-- FOR TESTING ONLY -->
 
 <?php echo $this->element('site-scripts'); ?>
 <?php echo $this->element('google-analytics'); ?>
