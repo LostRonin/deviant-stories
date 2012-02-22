@@ -17,8 +17,6 @@
     <?php echo $this->Html->script(array('libs/modernizr-2.5.2.min')); ?>
     <?php //echo $this->Html->script(array('live')); ?> <!-- Used for DEVELOPMENT ONLY -->
 
-    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif' rel='stylesheet' type='text/css' />
-
     <?php echo $scripts_for_layout; ?>
 </head>
 
@@ -67,7 +65,7 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
 
-    <?php echo $this->Html->script(array('jquery-ui.min', 'lightbox/jquery.lightbox.min', 'jquery.easing.1.3', 'jquery.slidingtabs.pack', 'jquery.jScale', 'dot', 'rating_jquery', 'jquery.uniform.min', 'jquery.fancygallery.min', 'jquery.prettyPhoto', 'ligature')); ?>
+    <?php echo $this->Html->script(array('jquery-ui.min', 'lightbox/jquery.lightbox.min', 'jquery.easing.1.3', 'jquery.slidingtabs.pack', 'jquery.jScale', 'dot', 'rating_jquery', 'jquery.uniform.min', 'jquery.fancygallery.min', 'jquery.prettyPhoto')); ?>
 
     <?php echo $this->element('site-scripts'); ?>
     <?php echo $this->element('google-analytics'); ?>

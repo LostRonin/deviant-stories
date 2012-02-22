@@ -43,7 +43,7 @@
         ?>
     </div>
 
-    <div style="margin-top: 40px;"><?php echo $form->input('security_code', array('label' => 'Please Enter the Sum of:' . '&nbsp;&nbsp;' . $mathCaptcha . '&nbsp;&nbsp;=&nbsp;&nbsp;')); ?></div>
+    <div style="margin-top: 40px;"><?php echo $form->input('security_code', array('label' => 'Enter the Sum of:' . '&nbsp;&nbsp;' . $mathCaptcha . '&nbsp;=&nbsp;&nbsp;')); ?></div>
 
     <div style="margin-top: 40px; text-align: center;">
     	<input type="submit"

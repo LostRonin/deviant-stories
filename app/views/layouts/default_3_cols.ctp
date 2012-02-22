@@ -16,7 +16,9 @@
     <?php echo $this->Html->script(array('libs/modernizr-2.5.2.min')); ?>
     <?php // echo $this->Html->script(array('live')); ?> <!-- Used for DEVELOPMENT ONLY -->
 
-    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif' rel='stylesheet' type='text/css' />
+    <!--
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif' rel='stylesheet' type='text/css' />
+-->
 
     <?php echo $scripts_for_layout; ?>
 </head>

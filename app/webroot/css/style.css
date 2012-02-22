@@ -453,7 +453,7 @@ a:hover, a:active {
    1. body */
 body {
   background-color: #595959;
-  font-family: 'Droid Sans', Verdana, Arial, Helvetica, sans-serif; }
+  font-family: Verdana, Arial, Helvetica, sans-serif; }
 
 #container p {
   line-height: 1.5em;
@@ -1548,14 +1548,13 @@ input.text {
   color: black;
   background: white;
   border: solid 1px grey;
-  height: 1000px;
-  margin: 10px;
+  height: 1040px;
   position: absolute;
   width: 550px;
   z-index: 0; }
 
 #registration fieldset {
-  padding: 20px;
+  padding: 20px 5px 0 20px;
   margin-right: 20px;
   margin-left: 20px; }
 
@@ -1662,8 +1661,8 @@ input.text {
   border-style: solid;
   border-width: 1px;
   display: block;
-  font-size: 1.2em;
-  line-height: 1.25em;
+  font-size: 1.1em;
+  line-height: 1.36em;
   font-size-adjust: none;
   font-stretch: normal;
   font-style: normal;
@@ -1686,7 +1685,7 @@ input.text {
 
 .menu a:hover, .menu .current, .menu .parent:hover {
   background: #FFFFFF none repeat scroll 0;
-  font-weight: 700;
+  font-weight: bold;
   color: #760000;
   border-color: #760000; }
 
@@ -1699,7 +1698,7 @@ input.text {
   left: 100%;
   position: absolute;
   top: 0;
-  width: 100%; }
+  width: 125%; }
 
 div.menu ul ul ul, div.menu ul ul li:hover ul ul {
   display: none;
@@ -2036,7 +2035,7 @@ address {
   float: left;
   font-family: Times, Georgia, serif;
   font-size: 3.5em;
-  padding-top: .2em;
+  padding-top: .35em;
   padding-right: .1em; }
 
 .maintext {
@@ -2055,14 +2054,15 @@ address {
 
 .paypaltext {
   color: #760000;
-  font-weight: bold;
+  font-weight: normal;
+  font-size: .9em;
   border-top: 2px solid #760000;
   border-right: 1px solid #8e0000;
-  line-height: 1.5em;
+  line-height: 1.66em;
   margin: 0 auto;
-  padding: 15px 10px 0 15px;
+  padding: 15px 15px 0 15px;
   text-align: justify;
-  width: 195px; }
+  width: 190px; }
 
 #quote {
   /* used to format the blockquote in the stories */
@@ -2119,12 +2119,11 @@ blockquote:after {
   font-weight: bold; }
 
 .story_format {
-  font-size: 1.1em;
-  font-family: 'Droid Serif', Georgia, serif;
-  font-weight: 400; }
+  font-size: 1.2em;
+  font-family: Garamond, Georgia, Times, "Times New Roman", serif; }
   .story_format p {
-    line-height: 1.36em;
-    margin: 1.36em 0; }
+    line-height: 1.25em;
+    margin: 1.25em 0; }
 
 .textbox {
   float: right;

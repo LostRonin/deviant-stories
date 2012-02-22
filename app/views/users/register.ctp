@@ -3,7 +3,7 @@
 
 <?php echo $session->flash(); ?>
 
-<div style="height: 1050px; margin-left: 60px; margin-top: 20px;">
+<div style="height: 1030px; margin: 20px 0 40px 60px;">
     <div id="registration" class="span-11">
         <h2>Sign-Up</h2>
 
